@@ -1,0 +1,29 @@
+# editor and workspace files
+*.sublime-workspace
+*.sublime-project
+/.vscode
+*.code-workspace
+/.idea
+
+# python files
+**/__pycache__
+*.pyc
+*.pyo
+
+# poetry and environment files
+/.venv
+*.lock
+**/.env
+
+# dummy email accounts
+dummy-accounts*
+
+# temoporary folders
+TEMPORARY/
+git_learn/
+lua_learn/
+javascript_learn/
+sql_learn
+
+# large zip files
+**.zip

@@ -1,0 +1,152 @@
+random video tutorials/programming with Mosh/readme.md:#tags: readme, index
+exercise/reverse_word_order.py:#tags: function, string, reverse(), list, oneliner
+exercise/multiplication_table.py:#tags: loop, nest, pattern
+exercise/readme.md:#tags: index, link, book resources, readme,
+exercise/guessing_game_one.py:#tags: randint(), input(), while loop, game
+exercise/rock_paper_scissors.py:#tags: while loop, dictionary, game
+exercise/decode_web_page.py:#tags: library, requests, beautifulsoup, parsing, html
+exercise/fibonacci.py:#tags: fibonacci, loop, recursion, funcion,
+exercise/comprehensions.py:#tags: list comprehension,
+exercise/rock_paper_scissors2.py:#tags: function, return, count(), dictionary, score, winner, game
+exercise/list_less_than_ten.py:#tags: list comprehension
+exercise/list_overlap.py:#tags: duplicate removal, set(), list, comprehension
+exercise/password_generator.py:#tags: shuffle(), choice(), ascii, password generator
+experiments/readme.md:#tags: readme, index
+experiments/argparsetutorial.py:#tags: argparse
+realpython_com/rock paper scissors/main.py:#tags: class, while loop, exception, dictionary, game,
+automate_the_boring_stuff/readme.md:#tags: index, link, book resources, readme,
+automate_the_boring_stuff/count characters.py:#tags: counting, get(), setdefault(), dictionary, method
+automate_the_boring_stuff/Character Picture Grid.py:#tags: pattern
+python crash course/exercise06-03.py:#tags: dictionary, items(), keys(), values(),
+python crash course/exercise10-08.py:#tags: files, exception, error, open(), read(), for loop, i/o stream,
+python crash course/exercise07-08.py:#tags: list, while loop
+python crash course/exercise09-01.py:#tags: class, basics, self, __init__(), initialize, method,
+python crash course/exercise07-09.py:#tags: list, while loop
+python crash course/exercise06-01.py:#tags: dictionary
+python crash course/exercise11-03.py:#tags: test, unittest
+python crash course/exercise08-09.py:#tags: function, list
+python crash course/exercise05-03.py:#tags: if, elif, else
+python crash course/exercise04-07.py:#tags: list, comprehension, range()
+python crash course/exercise08-08.py:#tags: function, while loop, input(), dictionary,
+python crash course/exercise08-07.py:#tags: function, dictionary, docstring,
+python crash course/exercise04-08.py:#tags: list, comprehension, range()
+python crash course/exercise09-14.py:#tags: ascii, choice(), choices(), randint(), while loop, lottery
+python crash course/exercise04-10.py:#tags: list, slice,
+python crash course/exercise10-10.py:#tags: exception, files, i/o stream, with, function
+python crash course/exercise10-05.py:#tags: files, i/o stream, with, while loop, flag,
+python crash course/exercise05-11.py:#tags: list, comprehension, if, elif, else
+python crash course/exercise09-09.py:#tags: class, inheritance, subclass, super(), __init__(), attribute
+python crash course/remember_me.py:#tags: dump(), i/o stream, files, refactoring, function
+python crash course/exercise09-02.py:#tags: class, basics, self, method
+python crash course/exercise04-06.py:#tags: list, range(), for loop, comprehension,
+python crash course/exercise09-05.py:#tags: class, basics, self, method
+python crash course/exercise10-11.py:#tags: dump(), i/o stream, files, function
+python crash course/exercise10-13.py:#tags: dump(), i/o stream, files, function
+python crash course/exercise06-10.py:#tags: dictionary, items()
+python crash course/exercise08-01.py:#tags: function,
+python crash course/exercise10-03.py:#tags: files, i/o stream,
+python crash course/exercise11-01.py:#tags: test, __main__(),
+python crash course/exercise10-04.py:#tags: files, i/o stream, with, while loop, flag,
+python crash course/exercise09-15.py:#tags: choice(), lottery, flag, while True/False, function
+python crash course/number_writer_reader.py:#tags: files, i/o stream
+python crash course/readme.txt:#tags: index, resources, readme,
+python crash course/exercise05-10.py:#tags: list, comprehension, for loop
+python crash course/exercise08-11.py:#tags: function, list, append(), pop()
+python crash course/exercise08-14.py:#tags: function, dictionary, arg, kwarg,
+python crash course/exercise06-11.py:#tags: dictionary, output format, for loop, items()
+python crash course/exercise07-05.py:#tags: input(), while loop, if, elif, else,
+python crash course/exercise09-03.py:#tags: class, basics, self, method
+python crash course/exercise06-07.py:#tags: dictionary, list, for loop, output format,
+python crash course/exercise10-06.py:#tags: exception, error, try-except-else,
+python crash course/exercise08-04.py:#tags: function, help(), docstring,
+python crash course/exercise09-04.py:#tags: class, basics, self, __init__(), initialize, method
+python crash course/exercise11-02.py:#tags: test, unittest
+python crash course/exercise10-09.py:#tags: files, exception, error, open(), read(), for loop, i/o stream,
+python crash course/exercise03-04.py:#tags: list, insert(), append(), pop()
+python crash course/exercise10-01.py:#tags: files, with, open(), read(), readlines(), for loop, i/o stream
+python crash course/exercise03-08.py:#tags: list, sorted(), sort(), reverse()
+python crash course/exercise09-07.py:#tags: class, inheritance, subclass, super(), __init__(), attributes
+python crash course/exercise04-05.py:#tags: list, for loop, range(), max(), min(), sum()
+python crash course/exercise06-09.py:#tags: dictionary, list, for loop, format,
+python crash course/exercise08-12.py:#tags: function, arg, kwarg
+python crash course/exercise04-11.py:#tags: list, for loop, slice,        
+python crash course/exercise08-13.py:#tags: function, dictionary, arg, kwarg
+python crash course/exercise07-10.py:#tags: input(), for loop, flag, while loop,
+python crash course/exercise09-08.py:#tags: class, inheritance, subclass, super(), __init__(), attributes
+python crash course/exercise09-13.py:#tags: class, randint()
+python crash course/exercise05-06.py:#tags: randrange(), if, elif, else,
+python crash course/exercise10-12.py:#tags: dump(), i/o stream, files, function
+python crash course/exercise10-07.py:#tags: exception, error, while loop,
+python crash course/exercise08-10.py:#tags: function, list, append(), pop()
+python crash course/exercise10-02.py:#tags: files, with, open(), read(), readlines(), replace(), i/o stream
+python crash course/exercise09-06.py:#tags: class, inheritance, subclass, super(), __init__(), arg, kwarg
+python crash course/electric-car-my-instance.py:#tags: class import,
+python crash course/car.py:#tags: class, inheritance, subclass, super(), __init__(), module
+python crash course/exercise05-04.py:#tags: if, elif, else
+python crash course/exercise06-08.py:#tags: dictionary, list, for loop, format,
+100_days_of_code/30 Errors exceptions and JSON data/readme.md:#tags: readme
+100_days_of_code/30 Errors exceptions and JSON data/password manager/main.py:#tags: password, gui, json, dump(), load(), update(), i/o stream, error, exception
+100_days_of_code/30 Errors exceptions and JSON data/NATO alphabet/main.py:#tags: error, exception, recursion, function, iterrows()
+100_days_of_code/17 The quiz project and OOP benefits/readme.md:#tags: readme
+100_days_of_code/17 The quiz project and OOP benefits/main.py:#tags: class, list dictionary objects, modules
+100_days_of_code/17 The quiz project and OOP benefits/test.py:#tags: practice
+100_days_of_code/16 Object oriented programming OOP/exercise.py:#tags: ASCII
+100_days_of_code/16 Object oriented programming OOP/readme.md:#tags: readme
+100_days_of_code/16 Object oriented programming OOP/main.py:#tags: *class, oop,
+100_days_of_code/28 Tkinter Dynamic typing and Pomodoro GUI app/readme.md:#tags: readme,
+100_days_of_code/28 Tkinter Dynamic typing and Pomodoro GUI app/main.py:#tags: pomodoro, gui, after(), after_cancel(), canvas, grid()
+100_days_of_code/07 hangman/readme.md:#tags: readme
+100_days_of_code/07 hangman/main.py:#tags: hangman, game, while loop
+100_days_of_code/20 Snake game p1 Animation and Coordinates p2 Inheritance and Slicing/readme.md:#tags: readme
+100_days_of_code/20 Snake game p1 Animation and Coordinates p2 Inheritance and Slicing/main.py:#tags: snake game, coordinates, reverse loop, class inhertance, super(), __init__(), oop
+100_days_of_code/20 Snake game p1 Animation and Coordinates p2 Inheritance and Slicing/food.py:#tags: super(), __init__(), inheritance,
+100_days_of_code/32 Send email (smtplib) and manage dates (datetime)/exercise.py:#tags: smtp, automation, email,
+100_days_of_code/32 Send email (smtplib) and manage dates (datetime)/readme.md:#tags: readme,
+100_days_of_code/32 Send email (smtplib) and manage dates (datetime)/main.py:#tags: smtp, automation, dataframe, series, loc, regex, read_csv(), email
+100_days_of_code/readme.md:#tags: index, resources, readme,
+100_days_of_code/29 Password manager GUI app with Tkinter/readme.md:#tags: readme,
+100_days_of_code/29 Password manager GUI app with Tkinter/main.py:#tags: password, gui, columnspan, grid(), get(), delete(), dialog, popup, messagebox
+100_days_of_code/33 API endpoints, API parameters - ISS overhead notifier/readme.md:#tags: readme,
+100_days_of_code/33 API endpoints, API parameters - ISS overhead notifier/kanye quotes/main.py:#tags: api, get()
+100_days_of_code/33 API endpoints, API parameters - ISS overhead notifier/main.py:#tags: api, get(), email, coordinates
+100_days_of_code/08 Function parameters and Caesar cipher/main.py:#tags: encode/decode, encription, caesar cipher
+100_days_of_code/23 Turtle Crossing capstone project/readme.md:#tags: readme,
+100_days_of_code/23 Turtle Crossing capstone project/main.py:#tags: turtle crossing game, oop
+100_days_of_code/31 Flash Card app capstone project/readme.md:#tags: readme,
+100_days_of_code/31 Flash Card app capstone project/main.py:#tags: after(), after_cancel(), gui, itemconfig(), csv, file,
+100_days_of_code/09 Dictionaries nesting and Secret auction/main.py:#tags: dictionary, list, nest,
+100_days_of_code/19 Instances State and higher order functions/sketch.py:#tags:event listener, higher order function,
+100_days_of_code/19 Instances State and higher order functions/race.py:#tags: turtle race, coordinates,
+100_days_of_code/13 Debugging Find and fix errors/readme.md: #tags: readme
+100_days_of_code/13 Debugging Find and fix errors/main.py:#tags: debug, (describe reproduce fix error)
+100_days_of_code/14 Higher lower game project/main.py:#tags: game, score, function, choice(), while loop
+100_days_of_code/18 Turtle and GUI/exercise.py:#tags: turtle drawing, random color, 
+100_days_of_code/18 Turtle and GUI/readme.md:#tags: readme
+100_days_of_code/18 Turtle and GUI/main.py:#tags: turtle drawing, tuple, coordinate
+100_days_of_code/22 Build Pong Arcade Game/main.py:#tags: pong game, coordinates, oop 
+100_days_of_code/22 Build Pong Arcade Game/scoreboard.py:#tags: __init__()
+100_days_of_code/10 Functions with outputs/readme.md:#tags: readme
+100_days_of_code/10 Functions with outputs/main.py:#tags: call function from dictionary, calculator
+100_days_of_code/25 CSV data and pandas library/exercise.py:#tags: data, dataframe, series, scalar, item(), loc, read_csv()
+100_days_of_code/25 CSV data and pandas library/readme.md:#tags: readme,
+100_days_of_code/25 CSV data and pandas library/main.py:#tags: data, game, dataframe, series, item(), to_csv(), read_csv()
+100_days_of_code/25 CSV data and pandas library/test.py:#tags: dataframe, series, scalar, item(), read_csv()
+100_days_of_code/24 Files directories and paths/readme.md:#tags: readme,
+100_days_of_code/24 Files directories and paths/mail merge/main.py:#tags: files, i/o stream, regex, automation
+100_days_of_code/15 Local dev environment setup and Coffee machine/readme.md:#tags: readme
+100_days_of_code/15 Local dev environment setup and Coffee machine/main.py:#tags: function, *dictionary, loop, procedure, game
+100_days_of_code/27 Tkinter args kwargs and GUI/exercise.py:#tags: args, kwargs
+100_days_of_code/27 Tkinter args kwargs and GUI/widgets.py:#tags: label, button, entry, text, spinbox, scale, checkbutton, radiobutton, listbox, gui
+100_days_of_code/27 Tkinter args kwargs and GUI/readme.md:#tags: readme
+100_days_of_code/27 Tkinter args kwargs and GUI/main.py:#tags: widget, pack(), grid(), converter, gui
+100_days_of_code/34 API practice - GUI quiz app/readme.md:#tags: readme,
+100_days_of_code/34 API practice - GUI quiz app/quizzler-app/main.py:#tags: game, api, gui, oop, canvas, button, label
+100_days_of_code/12 Scope Number guessing game/main.py:#tags: while loop, numbers, randint(), guess game,
+100_days_of_code/26 List comprehension and NATO alphabet/exercise.py:#tags: list, dictionary, *comprehension, dataframe, iterrows()
+100_days_of_code/26 List comprehension and NATO alphabet/readme.md:#tags: readme,
+100_days_of_code/26 List comprehension and NATO alphabet/main.py:#tags: list, dictionary, comprehension, input(), iterrows()
+100_days_of_code/11 The Blackjack capstone project/readme.md:#tags: readme
+100_days_of_code/11 The Blackjack capstone project/main.py:#tags: choices(), input(), function, loop, if, elif, else, game
+automation_ideas/readme.md:#tags: index, readme,
+freecodecamp/tut_exercise2.py:#tags: count, average, total
+freecodecamp/readme.md:#tags: index, readme

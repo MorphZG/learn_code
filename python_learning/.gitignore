@@ -1,0 +1,19 @@
+# editor and workspace files
+*.sublime-workspace
+*.sublime-project
+/.vscode
+*.code-workspace
+/.idea
+
+# python files
+**/__pycache__
+*.pyc
+*.pyo
+
+# poetry and environment files
+/.venv
+*.lock
+**/.env
+
+# dummy email accounts
+dummy-accounts*

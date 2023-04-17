@@ -1,0 +1,14 @@
+
+# editor and workspace files
+/.vscode
+/.idea
+
+# python files
+**/.env
+**/__pycache__
+*.pyc
+*.pyo
+
+# poetry environment files
+/.venv
+*.lock

@@ -1,0 +1,68 @@
+[
+    {
+        "Fly from": "ZAG",
+        "Fly to (airport IATA)": "BVA",
+        "Fly to (city)": "Paris",
+        "departure date (local)": "2023-01-22",
+        "departure time (local)": "14:30:00",
+        "arrival date (local)": "2023-01-22",
+        "arrival time (local)": "16:40:00",
+        "price": 15,
+        "curr": "EUR"
+    },
+    {
+        "Fly from": "ZAG",
+        "Fly to (airport IATA)": "SYD",
+        "Fly to (city)": "Sydney",
+        "departure date (local)": "2023-03-28",
+        "departure time (local)": "10:40:00",
+        "arrival date (local)": "2023-03-29",
+        "arrival time (local)": "18:10:00",
+        "price": 896,
+        "curr": "EUR"
+    },
+    {
+        "Fly from": "ZAG",
+        "Fly to (airport IATA)": "SAW",
+        "Fly to (city)": "Istanbul",
+        "departure date (local)": "2023-01-17",
+        "departure time (local)": "08:35:00",
+        "arrival date (local)": "2023-01-17",
+        "arrival time (local)": "17:05:00",
+        "price": 70,
+        "curr": "EUR"
+    },
+    {
+        "Fly from": "ZAG",
+        "Fly to (airport IATA)": "KUL",
+        "Fly to (city)": "Kuala Lumpur",
+        "departure date (local)": "2023-01-22",
+        "departure time (local)": "10:35:00",
+        "arrival date (local)": "2023-01-23",
+        "arrival time (local)": "08:05:00",
+        "price": 415,
+        "curr": "EUR"
+    },
+    {
+        "Fly from": "ZAG",
+        "Fly to (airport IATA)": "SFO",
+        "Fly to (city)": "San Francisco",
+        "departure date (local)": "2023-04-22",
+        "departure time (local)": "22:20:00",
+        "arrival date (local)": "2023-04-23",
+        "arrival time (local)": "17:55:00",
+        "price": 327,
+        "curr": "EUR"
+    },
+    {
+        "Fly from": "ZAG",
+        "Fly to (airport IATA)": "CPT",
+        "Fly to (city)": "Cape Town",
+        "departure date (local)": "2023-02-05",
+        "departure time (local)": "10:35:00",
+        "arrival date (local)": "2023-02-06",
+        "arrival time (local)": "05:00:00",
+        "price": 451,
+        "curr": "EUR"
+    }
+]

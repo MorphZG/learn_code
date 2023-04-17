@@ -1,0 +1,54 @@
+# Udemy course - HTML, CSS and Javascript
+
+## 50 projects in 50 days
+
+- expanding cards
+- progress steps
+- rotating navigation
+- hidden search widget
+- blurry loading
+- scroll animation
+- split landing page
+- form wave animation
+- sound board
+- dad jokes
+- event keycodes
+- FAQ collapse
+- random choice picker
+- animated navigation
+- incrementing counter
+- drink water
+- movie app
+- background slider
+- theme clock
+- button ripple effect
+- drag n drop
+- drawing app
+- kinetic CSS loader
+- content placeholder
+- sticky navbar
+- double vertical slider
+- toast notification
+- github profiles
+- double heart click
+- auto text effect
+- password generator
+- good cheap fast checkboxes
+- notes app
+- animated countdown
+- image carousel
+- hoverboard
+- pokedex
+- mobile tab navigation
+- password strength background
+- 3d background boxes
+- verify account UI
+- live user filter
+- feedback UI design
+- custom range slider
+- netflix navigation
+- quiz app
+- testimonial box switcher
+- random image feed
+- todo list
+- insect catch game

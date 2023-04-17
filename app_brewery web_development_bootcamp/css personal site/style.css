@@ -1,0 +1,119 @@
+/* color palette: #222831 #393E46 #FFD369 #EEEEEE   */
+/* font-family: 'Abel', sans-serif; 'Inconsolata', monospace; 'Press Start 2P', cursive; */
+
+body {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-weight: 300;
+    background-color: #222831;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 0px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #EEEEEE;
+}
+
+h2 {
+    color: #EEEEEE;
+    font-family: 'Abel', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-family: 'Abel', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+#h2path {
+    padding-top: 50px;
+}
+
+#h2myskills {
+    padding-top: 50px;
+}
+
+
+.top-container {
+    background-color: #222831;
+    color: #EEEEEE;
+    padding: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.middle-container {
+    background-color: #393E46;
+    color: #EEEEEE;
+    padding: 0 50px;
+    position: relative;
+}
+
+.bottom-container {
+    background-color: #FFD369;
+    color: #222831;
+    padding: 10px;
+    position: relative;
+}
+
+.intro-text {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.contact-me {
+    padding: 60px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.descriptive-image {
+    width: 25%;
+    float: left;
+    margin: auto 30px;
+}
+
+a {
+    font-family: 'Abel', sans-serif;
+    text-decoration: none;
+    margin: 20px;
+}
+a:hover {
+    color: #EEEEEE;
+}
+
+#copyright {
+    font-size: 0.8rem;
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+
+/* button https://css3buttongenerator.com */
+
+.btn {
+    background: #FFD369;
+    border-radius: 5px;
+    font-family: 'Abel';
+    color: #222831;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+  }
+  
+  .btn:hover {
+  background: #EEEEEE;
+  color: #222831;
+  text-decoration: none;
+}
+

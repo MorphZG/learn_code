@@ -1,0 +1,76 @@
+sort1 uses:
+Bubble sort.
+
+How do you know?:
+It is the fastest with the sorted list with Omega(n)
+It is similar with the selection sort when run through worst case list, reversed
+and random. Both bubble sort and selection sort have O(n2)
+
+sort2 uses:
+Merge sort.
+
+How do you know?:
+It is second fastest with the sorted list with the Omega(n log n)
+It is also fastest with the reversed list with the worst case runtime O(n log n)
+
+sort3 uses:
+Selection sort.
+
+How do you know?:
+It is the slowest with the sorted list with Omega(n2)
+It is similar with the bubble sort when run through worst case list, reversed
+and random. Both bubble sort and selection sort have O(n2)
+
+<! ---- tests and analysis
+
+Selection sort:
+    O(n2)
+    Omega(n2)
+Bubble sort:
+    O(n2)
+    Omega(n)
+Merge sort:
+    O(n log n)
+    Omega(n log n)
+
+<! --- sort1
+
+sorted5000.txt          0m0.050s
+sorted10000.txt         0m0.125s
+sorted50000.txt         0m0.717s
+
+random5000.txt          0m0.100s
+random10000.txt         0m0.343s
+random50000.txt         0m7.931s
+
+reversed5000.txt        0m0.098s
+reversed10000.txt       0m0.281s
+reversed50000.txt       0m5.712s
+
+<! --- sort2
+
+sorted5000.txt          0m0.027s
+sorted10000.txt         0m0.106s
+sorted50000.txt         0m0.880s
+
+random5000.txt          0m0.060s
+random10000.txt         0m0.085s
+random50000.txt         0m0.675s
+
+reversed5000.txt        0m0.054s
+reversed10000.txt       0m0.129s
+reversed50000.txt       0m0.589s
+
+<! --- sort3
+
+sorted5000.txt          0m0.045s
+sorted10000.txt         0m0.227s
+sorted50000.txt         0m3.277s
+
+random5000.txt          0m0.054s
+random10000.txt         0m0.209s
+random50000.txt         0m0.228s
+
+reversed5000.txt        0m0.053s
+reversed10000.txt       0m0.198s
+reversed50000.txt       0m3.347s

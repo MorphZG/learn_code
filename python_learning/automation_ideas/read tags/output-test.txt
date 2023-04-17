@@ -1,0 +1,152 @@
+ readme, index
+ function, string, reverse(), list, oneliner
+ loop, nest, pattern
+ index, link, book resources, readme,
+ randint(), input(), while loop, game
+ while loop, dictionary, game
+ library, requests, beautifulsoup, parsing, html
+ fibonacci, loop, recursion, funcion,
+ list comprehension,
+ function, return, count(), dictionary, score, winner, game
+ list comprehension
+ duplicate removal, set(), list, comprehension
+ shuffle(), choice(), ascii, password generator
+ readme, index
+ argparse
+ class, while loop, exception, dictionary, game,
+ index, link, book resources, readme,
+ counting, get(), setdefault(), dictionary, method
+ pattern
+ dictionary, items(), keys(), values(),
+ files, exception, error, open(), read(), for loop, i/o stream,
+ list, while loop
+ class, basics, self, __init__(), initialize, method,
+ list, while loop
+ dictionary
+ test, unittest
+ function, list
+ if, elif, else
+ list, comprehension, range()
+ function, while loop, input(), dictionary,
+ function, dictionary, docstring,
+ list, comprehension, range()
+ ascii, choice(), choices(), randint(), while loop, lottery
+ list, slice,
+ exception, files, i/o stream, with, function
+ files, i/o stream, with, while loop, flag,
+ list, comprehension, if, elif, else
+ class, inheritance, subclass, super(), __init__(), attribute
+ dump(), i/o stream, files, refactoring, function
+ class, basics, self, method
+ list, range(), for loop, comprehension,
+ class, basics, self, method
+ dump(), i/o stream, files, function
+ dump(), i/o stream, files, function
+ dictionary, items()
+ function,
+ files, i/o stream,
+ test, __main__(),
+ files, i/o stream, with, while loop, flag,
+ choice(), lottery, flag, while True/False, function
+ files, i/o stream
+ index, resources, readme,
+ list, comprehension, for loop
+ function, list, append(), pop()
+ function, dictionary, arg, kwarg,
+ dictionary, output format, for loop, items()
+ input(), while loop, if, elif, else,
+ class, basics, self, method
+ dictionary, list, for loop, output format,
+ exception, error, try-except-else,
+ function, help(), docstring,
+ class, basics, self, __init__(), initialize, method
+ test, unittest
+ files, exception, error, open(), read(), for loop, i/o stream,
+ list, insert(), append(), pop()
+ files, with, open(), read(), readlines(), for loop, i/o stream
+ list, sorted(), sort(), reverse()
+ class, inheritance, subclass, super(), __init__(), attributes
+ list, for loop, range(), max(), min(), sum()
+ dictionary, list, for loop, format,
+ function, arg, kwarg
+ list, for loop, slice,        
+ function, dictionary, arg, kwarg
+ input(), for loop, flag, while loop,
+ class, inheritance, subclass, super(), __init__(), attributes
+ class, randint()
+ randrange(), if, elif, else,
+ dump(), i/o stream, files, function
+ exception, error, while loop,
+ function, list, append(), pop()
+ files, with, open(), read(), readlines(), replace(), i/o stream
+ class, inheritance, subclass, super(), __init__(), arg, kwarg
+ class import,
+ class, inheritance, subclass, super(), __init__(), module
+ if, elif, else
+ dictionary, list, for loop, format,
+ readme
+ password, gui, json, dump(), load(), update(), i/o stream, error, exception
+ error, exception, recursion, function, iterrows()
+ readme
+ class, list dictionary objects, modules
+ practice
+ ASCII
+ readme
+ *class, oop,
+ readme,
+ pomodoro, gui, after(), after_cancel(), canvas, grid()
+ readme
+ hangman, game, while loop
+ readme
+ snake game, coordinates, reverse loop, class inhertance, super(), __init__(), oop
+ super(), __init__(), inheritance,
+ smtp, automation, email,
+ readme,
+ smtp, automation, dataframe, series, loc, regex, read_csv(), email
+ index, resources, readme,
+ readme,
+ password, gui, columnspan, grid(), get(), delete(), dialog, popup, messagebox
+ readme,
+ api, get()
+ api, get(), email, coordinates
+ encode/decode, encription, caesar cipher
+ readme,
+ turtle crossing game, oop
+ readme,
+ after(), after_cancel(), gui, itemconfig(), csv, file,
+ dictionary, list, nest,
+event listener, higher order function,
+ turtle race, coordinates,
+ readme
+ debug, (describe reproduce fix error)
+ game, score, function, choice(), while loop
+ turtle drawing, random color, 
+ readme
+ turtle drawing, tuple, coordinate
+ pong game, coordinates, oop 
+ __init__()
+ readme
+ call function from dictionary, calculator
+ data, dataframe, series, scalar, item(), loc, read_csv()
+ readme,
+ data, game, dataframe, series, item(), to_csv(), read_csv()
+ dataframe, series, scalar, item(), read_csv()
+ readme,
+ files, i/o stream, regex, automation
+ readme
+ function, *dictionary, loop, procedure, game
+ args, kwargs
+ label, button, entry, text, spinbox, scale, checkbutton, radiobutton, listbox, gui
+ readme
+ widget, pack(), grid(), converter, gui
+ readme,
+ game, api, gui, oop, canvas, button, label
+ while loop, numbers, randint(), guess game,
+ list, dictionary, *comprehension, dataframe, iterrows()
+ readme,
+ list, dictionary, comprehension, input(), iterrows()
+ readme
+ choices(), input(), function, loop, if, elif, else, game
+ index, readme,
+ count, average, total
+ index, readme

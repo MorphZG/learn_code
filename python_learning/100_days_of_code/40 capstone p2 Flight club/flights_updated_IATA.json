@@ -1,0 +1,56 @@
+[
+    {
+        "id": 2,
+        "city": "Paris",
+        "iataCode": "PAR",
+        "lowestPrice": 9999
+    },
+    {
+        "id": 3,
+        "city": "Berlin",
+        "iataCode": "BER",
+        "lowestPrice": 9999
+    },
+    {
+        "id": 4,
+        "city": "Tokyo",
+        "iataCode": "TYO",
+        "lowestPrice": 9999
+    },
+    {
+        "id": 5,
+        "city": "Sydney",
+        "iataCode": "SYD",
+        "lowestPrice": 9999
+    },
+    {
+        "id": 6,
+        "city": "Istanbul",
+        "iataCode": "IST",
+        "lowestPrice": 9999
+    },
+    {
+        "id": 7,
+        "city": "Kuala Lumpur",
+        "iataCode": "KUL",
+        "lowestPrice": 9999
+    },
+    {
+        "id": 8,
+        "city": "New York",
+        "iataCode": "NYC",
+        "lowestPrice": 9999
+    },
+    {
+        "id": 9,
+        "city": "San Francisco",
+        "iataCode": "SFO",
+        "lowestPrice": 9999
+    },
+    {
+        "id": 10,
+        "city": "Cape Town",
+        "iataCode": "CPT",
+        "lowestPrice": 9999
+    }
+]

@@ -1,0 +1,10 @@
+check out these videos:
+Jake Callahan
+  watch in this order:
+    manual cli processing https://youtu.be/ADWAwzGXJjM
+    argparse cli https://youtu.be/J51vxXAWigI
+    click-based cli https://youtu.be/TVFO2ABZqK8
+
+theurbanpenguin
+  proffesional python program https://youtu.be/w5Q_e4Nrw9c
+

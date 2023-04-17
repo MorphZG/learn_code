@@ -1,0 +1,17 @@
+/* color palette: #222831, #393E46, #58b1b6, #EEEEEE */
+
+body {
+    background-color: #222831;
+    color: white;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: #fff;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1, h3 {
+    color: #00ADB5;
+}
