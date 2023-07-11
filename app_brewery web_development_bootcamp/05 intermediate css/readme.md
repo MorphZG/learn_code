@@ -4,6 +4,7 @@
 
 - Work folder: [css personal site](../css%20personal%20site/)
 - [Mozilla developer network](https://developer.mozilla.org/en-US/). Documentation, guides and reference pages for HTML, CSS and Javascript.
+- think responsive, do not use fixed sizes, instead of width use max-width, min-height...
 - favicons, `<link rel="icon">`
 - div element (content division), generic block container
 - span element, generic inline container
