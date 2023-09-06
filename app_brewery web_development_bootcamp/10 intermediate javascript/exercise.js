@@ -117,14 +117,12 @@ Michael is going to buy lunch today!
 function selectGuest(guestList, listLength) {
     index = Math.floor(Math.random() * listLength);
     return guestList[index];
-    
 }
 
 var guests = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
 
 var luckyGuest = selectGuest(guests, guests.length);
 console.log(`${luckyGuest} is going to buy lunch today`);
-
 
 // Prompt the user for a name and check if that name exists in the array.
 // Display the simple alert to notify the user
@@ -134,7 +132,6 @@ if (guests.includes(guestName)) {
 } else {
     alert("Sorry, maybe next time");
 }
-
 
 /*
 Write a program that prints the numbers from 1 to 100.
@@ -147,21 +144,19 @@ var output = [];
 var count = 1;
 
 function fizzBuzz() {
-
     while (count <= 100) {
-        
         if (count % 3 == 0 && count % 5 == 0) {
-            output.push("FizzBuzz")
+            output.push("FizzBuzz");
         } else if (count % 3 == 0) {
             output.push("Fizz");
         } else if (count % 5 == 0) {
-            output.push("Buzz")
+            output.push("Buzz");
         } else {
             output.push(count);
         }
-        count ++;
+        count++;
     }
-    
+
     console.log(output);
 }
 
@@ -169,11 +164,11 @@ function fizzBuzz() {
 while loop counters
 */
 
-var count = 99
+var count = 99;
 while (count > 0) {
-    var sentence = `${count} bottles of beer on the wall, ${count} bottles of beer.\nTake one down and pass it around, ${count - 1} bottles of beer on the wall.`
+    var sentence = `${count} bottles of beer on the wall, ${count} bottles of beer.\nTake one down and pass it around, ${count - 1} bottles of beer on the wall.`;
     console.log(sentence);
-    count --;
+    count--;
 }
 
 /*
@@ -205,7 +200,6 @@ function fibonacciGenerator(n) {
     return sequence;
 }
 
-console.log(fibonacciGenerator(10))
-
+console.log(fibonacciGenerator(10));
 
 //tags: intermediate javascript
