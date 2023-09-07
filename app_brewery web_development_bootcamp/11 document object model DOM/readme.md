@@ -14,6 +14,8 @@ After parsing the html document, browsers create the programming interface that 
 
 To keep the code neat and organized some developers propose the separation of concerns. It is a design principle where we split the code in to sections and each section addresses different concern. There is a proposition that HTML should define the structure of a web page, CSS defines a style and javascript defines mechanics or behavior. While researching the topic i found there are also many other developers that propose different design principles or different separation. With years of development of HTML, CSS and Javascript allowed for different approach where it is possible to mix them up. With use of advanced css frameworks you can define style in html file for example. There is a lot more to learn regarding the code design, it deserves it's own course.
 
+Some of the examples are listed below. There is also a work folder: [DOM](../DOM/). Here you can view the the index.html, script.js and style.css files where i have exercised some of the mentioned concepts.
+
 ### methods of HTML objects
 
 - `document.getElementById()` returns single element
@@ -36,6 +38,7 @@ To keep the code neat and organized some developers propose the separation of co
 - `element.classList.toggle()` toggle a class name from the classList of an element
 
 ### examples
+
 
 ```javascript
 // return the list of all h1, h2, h3 and h4 headings
