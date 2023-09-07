@@ -16,19 +16,20 @@ To keep the code neat and organized some developers propose the separation of co
 
 Some of the examples are listed below. There is also a work folder: [DOM](../DOM/). Here you can view the the index.html, script.js and style.css files where i have exercised some of the mentioned concepts.
 
-### methods of HTML objects
+### methods and properties of HTML objects
 
 - `document.getElementById()` returns single element
 - `document.getElementsByTagName()` returns array of elements, select single item with index[i]
 - `document.getElementsByClassName()` returns array of elements, select single item with index[i]
-- `document.querySelector()` returns first element that matches a CSS selector (id, .class, #tag, :pseudo-class ...), most versatile since you can combine different selectors with space between to select child element or comma for different elements
+- `document.querySelector()` returns first element that matches a CSS selector (id, .class, #tag, :pseudo-class ...), most versatile since you can combine many CSS selectors. If there is a child tag inside another parent tag select it as: ("parent child"), put comma in between to select non relation (".class", "#id")
 - `document.querySelectorAll()` returns array of all elements that matches a CSS selector (id, .class, #tag, :pseudo-class ...), possible to combine more than one selector `querySelectorAll('h1, h2, h3')`
-
-### properties of HTML objects
 
 - `element.innerHTML` content between element tags together with html, anything between.
 - `element.textContent` only text content between element, no html tags.
 - `element.attributes` get array html attributes of an element (class, id, src, href, style, type...)
+- `element.getAttribute("name")` return single attribute value of the element
+- `element.setAttribute("name", "value")` set the value for the name attribute
+- `element.hasAttribute("name")` returns true if element has a name attribute
 - `element.style.color` style property, check documentation for a full list
 - `element.style.backgroundColor` style property, check documentation for a full list
 - `element.style.fontSize` style property, check documentation for a full list
@@ -36,6 +37,7 @@ Some of the examples are listed below. There is also a work folder: [DOM](../DOM
 - `element.classList.add()` add a class name to the classList of an element
 - `element.classList.remove()` remove a class name from the classList of an element
 - `element.classList.toggle()` toggle a class name from the classList of an element
+- `element.click()` simulates the click on the element
 
 ### examples
 
