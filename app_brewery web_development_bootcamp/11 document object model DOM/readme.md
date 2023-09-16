@@ -5,12 +5,14 @@
 - work folder: [DOM](../DOM/)
 - javascript should be loaded after all other elements, position the script tag at the bottom of the body.
 - browsers parse the HTML file and converts the document into a tree of objects with logical hierarchy.
+- Document Object Model: [Documentation link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 - DOM objects have properties and methods.
+- DOM interfaces (api) are built into the browser to help javascript access the DOM
 - separation of concerns: HTML structure, CSS style, JavaScript behavior.
 
 ## summary
 
-After parsing the html document, browsers create the programming interface that will represent the page. Now we can change the document structure, style and content through it's API. Every html tag is now an object with it's properties and methods. DOM have a logical hierarchy, tree like structure where each object have it's parent, child and a sibling. We can also get and set properties of every element and call different methods using javascript. For more details on manipulation of DOM objects browse the available documentation online.
+After parsing the html document, browsers create the programming interface that will represent the page. Now we can change the document structure, style and content through it's API. Every html tag is now an object with it's properties and methods. DOM have a logical hierarchy, tree like structure where each object have it's parent, child and a sibling. We can also get and set properties of every element and call different methods using javascript. For more details on manipulation of DOM objects browse the available documentation online. DOM also have different interfaces. DOM interfaces provide a means for JavaScript to access the DOM. The DOM interfaces are not built into JavaScript, instead, they are built into the web browser. [Documentation link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
 To keep the code neat and organized some developers propose the separation of concerns. It is a design principle where we split the code in to sections and each section addresses different concern. There is a proposition that HTML should define the structure of a web page, CSS defines a style and javascript defines mechanics or behavior. While researching the topic i found there are also many other developers that propose different design principles or different separation. With years of development of HTML, CSS and Javascript allowed for different approach where it is possible to mix them up. With use of advanced css frameworks you can define style in html file for example. There is a lot more to learn regarding the code design, it deserves it's own course.
 
@@ -40,7 +42,6 @@ Some of the examples are listed below. There is also a work folder: [DOM](../DOM
 - `element.click()` simulates the click on the element
 
 ### examples
-
 
 ```javascript
 // return the list of all h1, h2, h3 and h4 headings
