@@ -19,11 +19,7 @@
 dummy-accounts*
 
 # temoporary folders
-TEMPORARY/
-git_learn/
-lua_learn/
-javascript_learn/
-sql_learn
+IGNORED/
 
 # large zip files
 **.zip
