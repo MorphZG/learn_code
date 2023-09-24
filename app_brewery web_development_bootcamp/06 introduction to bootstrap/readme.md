@@ -18,3 +18,5 @@ Bootstrap is opensource framework build upon CSS, HTML and Javascript, it simpli
 When you work with regular CSS and try to set the right layout for each element, making it scale on different screen sizes can be very tedious. Bootstrap uses the grid system and splits the viewport over 12 columns. Number 12 have many divisors, allowing easier layout creation.
 
 We can use predefined classes to customize the HTML elements by adding the class name to class attribute of the element. Browse the [bootstrap documentation](https://getbootstrap.com/) to learn more. Read the the layout section to make your web responsive.
+
+#tags: readme

@@ -19,3 +19,5 @@ Manage attention with effective user interface. Define hierarchy, add importance
 User experience. While design works on good look and leads the users to make some action, user experience is trying to make it work, keep it simple and usable. Keep design simple and consistent. Think about multiple platforms so design works on different viewports. Share your design with different users and listen the feedback.
 
 Don't use your powers for evil! So called dark patterns will influence the user to perform the action that will benefit the company but it's probably not something the user wanted to do.
+
+#tags: readme,

@@ -12,3 +12,5 @@
 ## Summary
 
 While html can set the layout of the page and even customize a style of some elements it is not recommended to do so.
+
+#tags: readme

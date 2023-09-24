@@ -60,4 +60,4 @@ headings[0].innerHTML = '<em>This is the heading</em>'
 headings[0].textContent = 'This is new heading'
 ```
 
-#tags: readme
+#tags: readme, function, property

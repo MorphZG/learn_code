@@ -56,4 +56,4 @@ document.addEventListener("keydown", function callBackFn(eventObject) {
 
 ### methods
 
-#tags: readme
+#tags: readme, object, callback
