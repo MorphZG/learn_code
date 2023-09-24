@@ -1,5 +1,6 @@
+**day 40**
 
-# Flight deal finder, capstone project p1
+# Flight deal finder, capstone project p2
 
 ## Introduction
 
@@ -9,7 +10,7 @@ I will have to copy the yesterday's project and build upon it. So let's do it, s
 
 ## My notes
 
-[Replit page](https://replit.com/@MorphZG) holds a few `input()` lines and sends a json payload to Sheety.io endpoint. All it asks for is first name, last name and double confirmation of email address.
+[Replit page](https://replit.com/@MorphZG) holds a few `input()` lines and sends a json payload to Sheety.io endpoint. All it asks for is first name, last name and double confirmation of email address. I have created a local copy as `replit_code_copy.py`
 
 To minimize the number of requests to Sheety.io i will still use my .json files to store the flight data. `DataManager` class defines methods to handle reading and updating local .json files but also downloading and uploading data to a google spreadsheet. That way i can use both local and online storage of flight data. For now i will work with local .json files.
 
