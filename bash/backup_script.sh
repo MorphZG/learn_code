@@ -17,4 +17,8 @@ done
 
 echo "Backup created in $output_dir"
 
+# tutorial with similar script on youtube:
+# copied from Herbertech https://www.youtube.com/watch?v=m8gN8iCWLdI
+# Make an Incremental Backup Script with Bash!
+
 #tags: backup script
