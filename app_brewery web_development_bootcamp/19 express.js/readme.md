@@ -52,8 +52,8 @@ Now we have a full stack web application. Our source code is now hidden from the
 - `app.listen(port, callbackFn())` listen for connections on specified port
 - `app.get(target_route, callbackFn([request, response]))` handle GET request
 - `app.post(target_route, callbackFn([request, response]))` handle POST request
-- `response.sendFile(file_path)` transfers the file at the given path.
-- `response.send()`
+- `response.sendFile(file_path)` transfers the file at the given path
+- `response.send()` send the HTTP response
 
 ## read more
 
