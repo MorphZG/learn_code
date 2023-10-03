@@ -1,0 +1,64 @@
+const express = require("express");
+const bodyParser = require("body-parser");
+
+const app = express();
+const port = 3000;
+
+// use body-parser urlencoded mode to parse the data from the html forms (POST request)
+app.use(bodyParser.urlencoded({ extended: true }));
+
+// -----------------------calculator index.html
+// -----------------------calculator index.html
+// handle POST request
+app.post("/", function (req, res) {
+    // -----------------------calculator index.html
+    console.log(req.body);
+
+    let num1 = Number(req.body.num1);
+    let num2 = Number(req.body.num2);
+    let result = Number(num1 + num2);
+
+    res.send(`The result of the calculation is ${result}`);
+});
+
+// handle GET request
+app.get("/", function (req, res) {
+    // send file as a response to client
+    // __dirname constant holds the value of a root directory
+    res.sendFile(`${__dirname}/index.html`);
+});
+// ----------------------- bmiCalculator.html
+
+// ----------------------- bmiCalculator.html
+    // ----------------------- bmiCalculator.html
+// a${__dirname}/index.bmiCalculator GET request
+app.get("/bmiCalculator", function (req, res) {
+    r${__dirname}/index.bmiCalculator.sendFile(`${__dirname}/bmiCalculator.html`);
+    //handle POST request
+app.post("/", function (req, res) {
+    //handle POST request
+app.post("/", function (req, res) {
+   console.log(req.body) 
+
+    
+})
+
+   console.log(req.body) 
+
+    
+})
+
+});
+
+//handle POST request
+app.post("/", function (req, res) {
+    console.log(req.body);
+});
+
+// listen for connections
+app.listen(port, function () {
+    console.log(`server started on port ${port}`);
+});
+// ----------------------- bmiCalculator.html
+
+// <!-- CONTINUE @ 235:min 9:00 Processing POST requests with body parser -->
