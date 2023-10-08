@@ -6,7 +6,7 @@
 /.idea
 
 # node.js folders and files
-node_modules/
+#node_modules/
 
 # python files
 **/__pycache__
