@@ -3,7 +3,12 @@
 ## notes
 
 - work directory: [express server](../express%20server/)
-- documentation: [express documentation](https://expressjs.com/)
+- work directory: [calculator app](../calculator%20app/)
+- express documentation: [express documentation](https://expressjs.com/)
+- node package manager documentation: [NPM documentation](https://docs.npmjs.com/)
+- node.org documentation: [node.org documentation](https://nodejs.org/en/)
+- node.dev documentation: [node.dev documentation](https://nodejs.dev/en/)
+- npm documentation: [npm documentation](https://docs.npmjs.com/)
 - localhost:3000 | http://127.0.0.1:3000/
 - handle HTTP requests and responses
 - routes
@@ -57,9 +62,9 @@ Now we have a full stack web application. Our source code is now hidden from the
 
 ## read more
 
-[MDN web dev reference](https://developer.mozilla.org/en-US/docs/Web)
-[Express web framework](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs)
-[HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
-[HTTP messages](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages)
+- [MDN web dev reference](https://developer.mozilla.org/en-US/docs/Web)
+- [Express web framework](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs)
+- [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+- [HTTP messages](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages)
 
 #tags: readme, express, body-parser,
