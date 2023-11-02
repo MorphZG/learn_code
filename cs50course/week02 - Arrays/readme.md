@@ -1,6 +1,6 @@
 # Week 2: Arrays
 
-[Link to official page](https://cs50.harvard.edu/x/2022/weeks/2/)
+[Link to official page](https://cs50.harvard.edu/x/2023/weeks/2/)
 
 ## Lecture 02
 
@@ -11,13 +11,16 @@
 - Arrays
 - Command line arguments
 
+[youtube lecture](https://www.youtube.com/watch?v=XmYnsO7iSI8)
+[extra section](https://cs50.harvard.edu/x/2023/sections/2/)
+
 ## Lab 2: Scrabble
 
 Determine which of two Scrabble words is worth more.
 
 ## Problem set 2
 
-[Link to official page](https://cs50.harvard.edu/x/2022/psets/2/)
+[Link to official page](https://cs50.harvard.edu/x/2023/psets/2/)
 
 - Readability
 - Caesar (less)

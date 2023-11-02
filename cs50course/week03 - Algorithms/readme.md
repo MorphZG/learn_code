@@ -1,6 +1,6 @@
 # Week 3: Algorithms
 
-[Link to official page](https://cs50.harvard.edu/x/2022/weeks/3/)
+[Link to official page](https://cs50.harvard.edu/x/2023/weeks/3/)
 
 ## Lecture
 
@@ -11,9 +11,12 @@
 - Recursion
 - Merge sort
 
+[youtube lecture](https://www.youtube.com/watch?v=4oqjcKenCH8)
+[extra section](https://cs50.harvard.edu/x/2023/sections/3/)
+
 ## Lab: Sort
 
-[Link to official page](https://cs50.harvard.edu/x/2022/labs/3/)
+[Link to official page](https://cs50.harvard.edu/x/2023/labs/3/)
 
 Analyze three sorting programs to determine which algorithms they use.
 To see the running times of each sorting algorithm use "time" command.
@@ -34,7 +37,7 @@ I could write the python script automate_testing.py and let it loop through the 
 
 ## Problem set
 
-[Link to official page](https://cs50.harvard.edu/x/2022/psets/3/)
+[Link to official page](https://cs50.harvard.edu/x/2023/psets/3/)
 
 - Plurality
 - Runoff (less)

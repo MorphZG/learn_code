@@ -1,6 +1,6 @@
 # Week 1: C
 
-[Link to official page](https://cs50.harvard.edu/x/2022/weeks/1/)
+[Link to official page](https://cs50.harvard.edu/x/2023/weeks/1/)
 
 ## Lecture 01
 
@@ -10,9 +10,12 @@
 - Loops
 - Command line
 
+[youtube lecture](https://www.youtube.com/watch?v=ywg7cW0Txs4)
+[extra section](https://cs50.harvard.edu/x/2023/sections/1/)
+
 ## Problem set 1
 
-[Link to official page](https://cs50.harvard.edu/x/2022/psets/1/)
+[Link to official page](https://cs50.harvard.edu/x/2023/psets/1/)
 
 - hello.c
 - mario-less
