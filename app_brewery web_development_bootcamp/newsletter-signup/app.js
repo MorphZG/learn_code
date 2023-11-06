@@ -2,17 +2,15 @@
 
 const express = require("express");
 const bodyParser = require("body-parser");
-const request = require("request");
 const https = require("https");
-const mailchimp = require("@mailchimp/mailchimp_marketing");
 
 require("dotenv").config(); // read environment variables from .env
 const appID = process.env.appID; // API key
 const listID = process.env.audienceID; // audience/list id
+const port = process.env.PORT;  // environment variable PORT
 const dataCenter = "us21";
 
 const app = express();
-const port = 3000;
 
 // serve the static files from "public" directory when needed
 app.use(express.static("public"));

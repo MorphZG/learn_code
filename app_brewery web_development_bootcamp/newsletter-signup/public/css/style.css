@@ -8,10 +8,6 @@ body {
     padding: 1rem;
 }
 
-.myTitle {
-    display: flex;
-}
-
 .form-signin .form-floating:focus-within {
     z-index: 2;
 }
