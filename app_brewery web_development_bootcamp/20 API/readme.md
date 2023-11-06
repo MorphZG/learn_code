@@ -1,6 +1,3 @@
-
-CONTINUE AT 251
-
 # API - Application programming interface
 
 ## notes
