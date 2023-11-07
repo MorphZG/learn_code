@@ -1,3 +1,7 @@
+# temoporary folders
+IGNORED/
+environment\ files/
+
 # editor and workspace files
 *.sublime-workspace
 *.sublime-project
@@ -6,7 +10,7 @@
 /.idea
 
 # node.js folders and files
-#node_modules/
+node_modules/
 
 # python files
 **/__pycache__
@@ -20,9 +24,6 @@
 
 # dummy email accounts
 dummy-accounts*
-
-# temoporary folders
-IGNORED/
 
 # large zip files
 **.zip
