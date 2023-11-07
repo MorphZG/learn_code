@@ -8,11 +8,16 @@ pnpm is a package manager that saves the storage space by symlinking the shared 
 
 Link working directory with shared directory
 
-This directory stores all the shared dependencies between the projects. When starting a new project it is important to link the two directories. From the working directory run this command `pnpm link <shared_directory>` after that you can update with `pnpm update`
+From the working directory run this command `pnpm link <shared_directory>` after that you can update with `pnpm update`.
+This directory stores all the shared dependencies between the projects. When starting a new project it is important to link the two directories.
 
+
+
+For example, if you are inside ~/projects/foo and you execute pnpm link --dir ../bar, then foo will be linked to bar/node_modules/foo.
 - `pnpm -h` - Print help
 - `pnpm init` - Create a package.json file
-- `pnpm link <directory path>`
+- `pnpm link <dir>` - Links node_modules from dir directory to node_modules of current working directory or specified via --dir option.
+- `pnpm link --dir <dir>` - Links the node_modules from the current working directory to dir directory
 - `pnpm install` - Download all the packages listed as dependencies in package.json
 - `pnpm add <module name>` - Download the package and add it to the list of dependencies in package.json
 - `pnpm add <module_name@version>` - Download a specific version of a package and add it to the list of dependencies in package.json
