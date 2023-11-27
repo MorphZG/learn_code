@@ -1,6 +1,5 @@
 # temoporary folders
 IGNORED/
-environment\ files/
 
 # editor and workspace files
 *.sublime-workspace
@@ -21,6 +20,8 @@ node_modules/
 /.venv
 *.lock
 **/.env
+# backup directory for .env files
+.env_files/
 
 # dummy email accounts
 dummy-accounts*
