@@ -14,7 +14,6 @@ $ grep -rnB1 "#tags.*class"
 
 ## My favorites
 
-- [Advent of code 2022](https://github.com/MorphZG/Learn-code/tree/main/advent_of_code_2022)
 - [App Brewery: Web development bootcamp](https://github.com/MorphZG/Learn-code/tree/main/app_brewery%20web_development_bootcamp)
 - [100 days of code with Python](https://github.com/MorphZG/Learn-code/tree/main/python_learning/100_days_of_code)
 
