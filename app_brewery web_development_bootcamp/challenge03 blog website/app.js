@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
+const { lowerCase, truncate } = require("lodash");
 
 const homeStartingContent =
     "Lacus vel facilisis volutpat est velit egestas dui id ornare. Semper auctor neque vitae tempus quam. Sit amet cursus sit amet dictum sit amet justo. Viverra tellus in hac habitasse. Imperdiet proin fermentum leo vel orci porta. Donec ultrices tincidunt arcu non sodales neque sodales ut. Mattis molestie a iaculis at erat pellentesque adipiscing. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. Odio euismod lacinia at quis risus sed vulputate odio ut. Cursus mattis molestie a iaculis at erat pellentesque adipiscing.";
@@ -21,7 +22,7 @@ const posts = [];
 app.get("/", (req, res) => {
     res.render("home", {
         homeStartingContent: homeStartingContent,
-        posts: posts
+        posts: posts,
     });
 });
 
@@ -37,6 +38,7 @@ app.get("/compose", (req, res) => {
     res.render("compose");
 });
 
+// compose the post object and push to global array
 app.post("/compose", (req, res) => {
     let postObject = {
         title: req.body.titleInput,
@@ -44,6 +46,20 @@ app.post("/compose", (req, res) => {
     };
     posts.push(postObject);
     res.redirect("/");
+});
+
+// routes for each post
+// custom route parameter :postTitle
+app.get("/posts/:postTitle", (req, res) => {
+    let requestedTitle = req.params.postTitle;
+    // test if requested post title match stored post title
+    posts.forEach((postObject) => {
+        // each post is object stored in array
+        if (lowerCase(requestedTitle) == lowerCase(postObject.title)) {
+            // render post.ejs page and pass the post variable
+            res.render("post", { post: postObject });
+        }
+    });
 });
 
 app.listen(3000, function () {
