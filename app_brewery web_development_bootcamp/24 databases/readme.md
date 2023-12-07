@@ -2,6 +2,10 @@
 
 There are many available database technologies and it can be hard to choose sometimes. Since they store data each database will handle the storage and retrieval better for different data types and data structures. Two big categories are SQL and NoSQL. Structured Query Language and Not Only Structured Query Language. When working with Node.js the most popular choice are MySQL and PostgreSQL as a SQL databases and mongoDB and Redis as NoSQL databases.
 
-## Structure
+## SQL or NoSQL
 
+SQL databases group data into tables. Tables follow a schema and have very strict data organization in columns and rows with each column storing same data type. Sometimes we need flexible data organization. For example list of customers where each customer is stored in a table with exactly the same data structure like name, address, id... Some customers can prefer email contact while others will prefer phone contact, some customers will have different data set. While everything can be organized into SQL tables in one way or the other, flexibility of NoSQL databases can be a better option. While SQL is old and reliable, likes structure, order and rules, NoSQL documents are easily adaptable, flexible and not bound by fixed schema and table structure.
 
+NoSQL have no data relationship, it is a non relational database. SQL databases are relational. Beside strict structure, we can introduce relationship between different data points. Tables and data inside is linked with data in other tables. We can have customers table with each customer having it's id, and products table where each product with it's product id is linked to the orders table, order id and customers. Using NoSQL and non relational databases we have to rethink how to store such data. Here data is organized into documents with JSON like structure and objects with key-value pairs. Internally, format is actualy BSON which stands for Binary JSON
+
+Scalability is a week spot for SQL databases. With huge tables of 10k rows or more it becomes hard to handle the data, it's very hard to scale up SQL databases. NoSQL records are represented in a documents with json like structure and can easily be split into smaller chunks and distributed as needed. We can say that SQL scales verticaly with tables growing in size while NoSQL scales horizontaly with the number of distributed documents.
