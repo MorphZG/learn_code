@@ -2,7 +2,7 @@
 
 ## notes
 
-- work folder: [blog website](../challenge03%20blog%20website/)
+- work folder: [capstone_3 blog website](../capstone_3%20blog%20website/)
 
 ## summary
 

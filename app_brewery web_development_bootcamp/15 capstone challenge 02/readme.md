@@ -2,7 +2,7 @@
 
 ## notes
 
-- work folder: [challenge02 Simon game](../challenge02%20Simon%20game/)
+- work folder: [capstone_2 Simon game](../capstone_2%20Simon%20game/)
 
 ## summary
 

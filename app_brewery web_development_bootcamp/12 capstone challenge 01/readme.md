@@ -2,7 +2,7 @@
 
 ## notes
 
-- work folder: [dice challenge](../challenge01%20Dice%20game/)
+- work folder: [capstone_1 Dice game](../capstone_1%20Dice%20game/)
 
 ## summary
 
