@@ -13,3 +13,4 @@ Follow simple installation instructions at [official web page](https://www.mongo
 - excellent learning materials, official web: [learn.mongodb.com](https://learn.mongodb.com/)
 - official documentation: [mongodb.com](https://www.mongodb.com/docs/)
 
+#tags: readme,
