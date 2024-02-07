@@ -5,6 +5,7 @@ IGNORED/
 *.sublime-workspace
 *.sublime-project
 /.vscode
+settings.json
 *.code-workspace
 /.idea
 
