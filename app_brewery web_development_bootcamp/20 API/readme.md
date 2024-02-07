@@ -42,4 +42,4 @@ For the "newsletter-signup" the course instructor works with now deprecated `req
 - [HTTP messages](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages)
 - [Software development kit / SDK](https://www.ibm.com/blog/sdk-vs-api/)
 
-#tags: readme, https post request, api,
+#tags: readme, http, post, request, response, api,
