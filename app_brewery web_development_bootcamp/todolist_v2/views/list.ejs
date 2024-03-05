@@ -1,0 +1,30 @@
+<%- include("header") -%>
+
+<div class="box" id="heading">
+    <h1><%= listTitle %></h1>
+</div>
+
+<div class="box">
+
+    <form class="" action="/delete" method="post">
+        <% newListItem.forEach((item) => { %>
+        <!-- for each newListItem create input fields and a pragarph -->
+        <div class="item">
+            <input type="checkbox" name="checkbox" value="<%= item._id %>" onchange="this.form.submit()" />
+            <p><%= item.name %></p>
+        </div>
+        <% }) %>
+        <!-- include hidden field in request.body, it will hold a list title -->
+        <input type="hidden" name="listName" value="<%= listTitle %>">
+    </form>
+
+        <!-- request.body.userInput holds input by user -->
+        <!-- request.body.list will hold list title -->
+    <form class="item" action="/" method="post">
+        <input type="text" name="userInput" placeholder="New Item" autocomplete="off" />
+        <button type="submit" name="list" value= <%= listTitle %> >+</button>
+    </form>
+
+</div>
+
+<%- include("footer") -%>
