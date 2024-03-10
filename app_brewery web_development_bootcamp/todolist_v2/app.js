@@ -39,14 +39,10 @@ const defaultItems = [item01, item02, item03];
 // --- request handlers ---
 // ------------------------
 app.get("/", async function (req, res) {
-    // find all items in a collection and log them to console
     let foundItems = await Item.find({});
     // prevent multiple insertion of default items
     if (foundItems.length == 0) {
-        // if there is no found items in a collection
-        // insert default documents into a collection
         await Item.insertMany(defaultItems);
-        // after inserting items, redirect back to "/"
         res.redirect("/");
     } else {
         // render list.ejs file from views directory and pass the values to required variables
@@ -75,11 +71,10 @@ app.get("/lists/:customListName", async function (req, res) {
         });
         await newList.save();
         res.redirect(`/lists/${customListName}`);
-        List.findOne({ name: customListName });
     }
 });
 
-// add new todo item to the database and redirect back to route route
+// add new todo item to the database
 app.post("/", async function (req, res) {
     const itemName = req.body.userInput; // <input name="userInput">
     const listName = req.body.list; // <input name="list">
@@ -89,13 +84,10 @@ app.post("/", async function (req, res) {
     });
     // check if user is posting to default or custom list
     if (listName == "Today") {
-        // save Item document (items collection)
         await newItem.save();
         res.redirect("/");
     } else {
-        // find the custom list and access the property of items: array
         List.findOne({ name: listName }).then(function (foundList) {
-            // push the newItem into items array and save
             foundList.items.push(newItem);
             foundList.save();
             res.redirect(`/lists/${listName}`);
@@ -103,20 +95,29 @@ app.post("/", async function (req, res) {
     }
 });
 
+// remove items from the list
 app.post("/delete", async function (req, res) {
     let checkedItemId = req.body.checkbox;
     let listName = req.body.listName;
 
     if (listName == "Today") {
-        await Item.findByIdAndDelete(checkedItemId).then(
-            console.log("ID found and deleted!")
-        );
-        res.redirect("/");
+        try {
+            await Item.findByIdAndDelete(checkedItemId);
+            console.log("Item found and deleted");
+            res.redirect("/");
+        } catch (error) {
+            console.log(error);
+        }
     } else {
-        await List.findOneAndUpdate(
-            { name: listName },
-            { $pull: { items: { _id: checkedItemId } } }
-        ).then(res.redirect(`/lists/${listName}`));
+        try {
+            await List.findOneAndUpdate(
+                { name: listName },
+                { $pull: { items: { _id: checkedItemId } } }
+            );
+            res.redirect(`/lists/${listName}`);
+        } catch (error) {
+            console.log(error);
+        }
     }
 });
 
