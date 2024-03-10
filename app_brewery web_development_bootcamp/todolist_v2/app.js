@@ -8,7 +8,7 @@ const app = express();
 app.set("view engine", "ejs");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static("public")); // serve static files from public dir
+app.use(express.static("public"));
 
 // ------------------------
 // --- database configuration
@@ -45,7 +45,6 @@ app.get("/", async function (req, res) {
         await Item.insertMany(defaultItems);
         res.redirect("/");
     } else {
-        // render list.ejs file from views directory and pass the values to required variables
         res.render("list", { listTitle: "Today", newListItem: foundItems });
     }
 });
@@ -54,7 +53,6 @@ app.get("/", async function (req, res) {
 app.get("/lists/:customListName", async function (req, res) {
     const customListName = _.capitalize(req.params.customListName); // lodash.capitalize()
     // check if customListName is in the database
-    // if it does, render found list
     let foundQuery = await List.findOne({ name: customListName });
     if (foundQuery) {
         console.log(`I have found ${customListName}`);
@@ -62,7 +60,6 @@ app.get("/lists/:customListName", async function (req, res) {
             listTitle: customListName,
             newListItem: foundQuery.items,
         });
-        // if not, save it to lists collection using List model
     } else {
         console.log(`Saving ${customListName} to "lists" collection...`);
         let newList = new List({
@@ -82,7 +79,6 @@ app.post("/", async function (req, res) {
     let newItem = new Item({
         name: itemName,
     });
-    // check if user is posting to default or custom list
     if (listName == "Today") {
         await newItem.save();
         res.redirect("/");
