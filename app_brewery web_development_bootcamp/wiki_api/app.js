@@ -27,10 +27,13 @@ const Article = mongoose.model("Article", articles);
 //--------------------
 
 app.get("/articles", async (req, res) => {
-    await Article.find({}).then((foundArticles) => {
+    try {
+        let foundArticles = await Article.find({});
         console.log(foundArticles);
         res.send(foundArticles);
-    });
+    } catch (error) {
+        console.log(error);
+    }
 });
 
 app.post("/articles", async (req, res) => {
@@ -39,7 +42,12 @@ app.post("/articles", async (req, res) => {
         content: req.body.content,
     });
 
-    await newArticle.save();
+    try {
+        await newArticle.save();
+        console.log("Article saved!");
+    } catch (err) {
+        console.log(err);
+    }
 });
 
 // ----------------
