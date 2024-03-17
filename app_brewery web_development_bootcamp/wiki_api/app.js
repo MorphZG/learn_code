@@ -30,6 +30,7 @@ app.route("/articles")
             res.send(foundArticles);
             console.log("Articles found!");
         } catch (err) {
+            res.send(err);
             console.log(err);
         }
     })
@@ -44,6 +45,7 @@ app.route("/articles")
             res.send(newArticle);
             console.log("Article saved!");
         } catch (err) {
+            res.send(err);
             console.log(err);
         }
     })
@@ -53,6 +55,7 @@ app.route("/articles")
             await Article.deleteMany({});
             console.log("Articles delted!");
         } catch (err) {
+            res.send(err);
             console.log(err);
         }
     });
@@ -71,6 +74,7 @@ app.route("/articles/:title")
                 res.send();
             }
         } catch (err) {
+            res.send(err);
             console.log(err);
         }
     })
@@ -86,11 +90,58 @@ app.route("/articles/:title")
                 console.log("Nothing found!");
             }
         } catch (err) {
+            res.send(err);
             console.log(err);
         }
     })
-    .put(async (req, res) => {})
-    .patch(async (req, res) => {});
+    .put(async (req, res) => {
+        try {
+            let dbResponse = await Article.replaceOne(
+                // filter
+                {
+                    title: req.params.title,
+                },
+                // replacement document
+                {
+                    title: req.body.title,
+                    content: req.body.content,
+                }
+            );
+            res.send(dbResponse);
+            if (dbResponse.modifiedCount > 0) {
+                console.log("Article replaced!");
+            } else {
+                console.log("Nothing found!");
+            }
+        } catch (err) {
+            res.send();
+            console.log(err);
+        }
+    })
+    .patch(async (req, res) => {
+        try {
+            let dbResponse = await Article.updateOne(
+                {
+                    // filter
+                    title: req.params.title,
+                },
+                {
+                    // updates
+                    title: req.body.title,
+                    content: req.body.content,
+                }
+            );
+            res.send(dbResponse);
+            if (dbResponse.modifiedCount > 0) {
+                console.log("Article updated!");
+            } else {
+                console.log("Nothing found!");
+            }
+        } catch (err) {
+            res.send();
+            console.log(err);
+        }
+    });
 
 // ----------------
 // listener
