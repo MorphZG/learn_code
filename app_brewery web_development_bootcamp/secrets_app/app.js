@@ -3,6 +3,8 @@ import mongoose from "mongoose";
 import encrypt from "mongoose-encryption";
 import "dotenv/config";
 import ejs from "ejs";
+import md5 from "md5";
+import bcrypt from "bcrypt";
 
 const app = express();
 
@@ -11,7 +13,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.set("view engine", "ejs");
 
-const encriptionString = process.env.secretString;
+const encriptionString = process.env.SECRET_KEY;
+const saltRounds = 10; // 384 ---- 14:00
 
 // -----------------------
 // database configuration
@@ -20,10 +23,12 @@ mongoose.connect("mongodb://localhost:27017/secretTutorial");
 
 const userSchema = new mongoose.Schema({ email: String, password: String });
 
+/*
 userSchema.plugin(encrypt, {
     secret: encriptionString,
-    encryptedFields: "password",
+    encryptedFields: ["password"],
 });
+*/
 
 const User = new mongoose.model("User", userSchema);
 
@@ -41,7 +46,7 @@ app.route("/login")
         try {
             let foundUser = await User.findOne({ email: req.body.username });
             if (foundUser) {
-                if (foundUser.password == req.body.password) {
+                if (foundUser.password == md5(req.body.password)) {
                     console.log("Password is correct!");
                     res.render("secrets");
                 } else {
@@ -65,11 +70,13 @@ app.route("/register")
     .post(async (req, res) => {
         let newUser = new User({
             email: req.body.username,
-            password: req.body.password,
+            password: md5(req.body.password),
         });
         try {
+            // TODO check if user is already in a database, save() if not
             await newUser.save();
             res.render("secrets");
+            // TODO else redirect("/login")
         } catch (err) {
             console.log(err);
             res.send();
