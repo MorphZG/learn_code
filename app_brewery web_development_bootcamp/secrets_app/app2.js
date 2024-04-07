@@ -1,4 +1,5 @@
-// uses bcrypt for hashing
+// utilize bcrypt for hashing
+// "manual" authentication
 
 import express from "express";
 import mongoose from "mongoose";

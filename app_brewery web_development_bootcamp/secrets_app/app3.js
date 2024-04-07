@@ -1,4 +1,9 @@
-// O'Auth
+/*
+passport.js, cookies and sessions
+passport-local-mongoose simplifes passport interaction with mongoose
+set mongoose UserSchema.plugin(passport-local-mongoose) than create a model
+simplify database interaction by automate find, save.... database actions
+*/
 
 import "dotenv/config";
 import express from "express";
