@@ -1,0 +1,59 @@
+<!-- Vue.js tutorial by Envato Tuts -->
+<!-- Continue at: 2.3 Binding data to attributes-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Learn Vue</title>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    </head>
+
+    <body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">My Vue</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li v-for="link in links" class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">{{ link }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+        <div id="content" class="container">
+            <h1>{{ pageTitle }}</h1>
+            <p>{{ content }}</p>
+        </div>
+
+        <script>
+
+            Vue.createApp({
+                data() {
+                    return {
+                        links: ["Home", "About", "Contact"]
+                    }
+                }
+            }).mount("nav")
+
+            Vue.createApp({
+                data() {
+                    return {
+                        pageTitle: "Hello, Vue",
+                        content: "Welcome to the wonderful world of Vue",
+                    };
+                },
+            }).mount("#content");
+        </script>
+    </body>
+</html>
