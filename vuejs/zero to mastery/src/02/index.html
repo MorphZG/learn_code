@@ -19,7 +19,7 @@
             <input
                 type="text"
                 v-bind:value="lastName"
-                v-on:input="updateLastName('last name event triggered', $event)"
+                v-on:input.prevent="updateLastName('last name event triggered', $event)"
             />
 
             <button type="button" @click="age++">increment</button>

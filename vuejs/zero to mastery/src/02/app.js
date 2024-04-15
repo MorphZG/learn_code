@@ -1,4 +1,3 @@
-// continue at 16
 const vm = Vue.createApp({
     data() {
         return {
@@ -17,7 +16,6 @@ const vm = Vue.createApp({
             this.age++;
         },
         updateLastName(message, event) {
-            event.preventDefault();
             console.log(message);
             this.lastName = event.target.value;
         },
