@@ -4,10 +4,10 @@
   import { uid } from "uid"
 
   const todoList = ref([]);
-  function createTodo(eventObject) {
+  function createTodo(event) {
     todoList.value.push({
       id: uid(),
-      eventObject,
+      event,
       isCompleted: null,
       isEditing: null,
     })
@@ -17,7 +17,7 @@
 <template>
   <main>
     <h1>Create Todo</h1>
-    <TodoCreator @create-todo="createTodo"/>
+    <TodoCreator @create-todo="createTodo" />
   </main>
 </template>
 
