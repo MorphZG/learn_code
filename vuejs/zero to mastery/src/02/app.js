@@ -1,4 +1,4 @@
-const vm = Vue.createApp({
+const app = Vue.createApp({
     data() {
         return {
             firstName: "John",
@@ -20,10 +20,12 @@ const vm = Vue.createApp({
             this.lastName = event.target.value;
         },
     },
-}).mount("#app1");
+});
+
+app.mount("#app");
 
 setTimeout(() => {
-    vm.firstName = "Bob";
+    app.firstName = "Bob";
 }, 2000);
 
 /* Vue.createApp({
