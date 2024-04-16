@@ -15,12 +15,19 @@
 
             <label for="">first name</label>
             <input type="text" v-model="firstName" />
+
+            <label for="">middle name</label>
+            <input type="text" v-model="middleName" @keyup.enter="updateMiddleName" />
+
             <label for="">last name</label>
             <input
                 type="text"
                 v-bind:value="lastName"
                 v-on:input.prevent="updateLastName('last name event triggered', $event)"
             />
+
+            <label for="age">Age</label>
+            <input type="text" v-model="age" />
 
             <button type="button" @click="age++">increment</button>
             <button type="button" @click="age--">decrement</button>
