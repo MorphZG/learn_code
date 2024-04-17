@@ -5,7 +5,7 @@ note.md
 # editor and workspace files
 *.sublime-workspace
 *.sublime-project
-/.vscode
+.vscode/
 settings.json
 *.code-workspace
 /.idea
