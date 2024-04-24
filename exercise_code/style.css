@@ -1,0 +1,15 @@
+.parent {
+    display: flex;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.child {
+    display: flex;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+}
