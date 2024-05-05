@@ -18,6 +18,11 @@ const FlashWord = {
                 this.correct = false;
             }
         },
+        reset() {
+            this.showFeedback = false;
+            this.answer = "";
+            this.correct = null;
+        },
     },
 };
 

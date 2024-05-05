@@ -1,15 +1,35 @@
-.parent {
+.parent1 {
+    position: absolute;
     display: flex;
     background-color: blue;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    left: 200px;
+
 }
 
-.child {
+.child1 {
+    position: relative;
     display: flex;
     background-color: red;
     width: 100px;
     height: 100px;
-    min-width: 100px;
-    min-height: 100px;
+    left: 50px;
+    top: 50px;
+}
+
+.parent2 {
+    position: absolute;
+    display: flex;
+    background-color: goldenrod;
+    width: 200px;
+    height: 200px;
+}
+
+.child2 {
+    position: relative;
+    display: flex;
+    background-color: green;
+    width: 100px;
+    height: 100px;
 }

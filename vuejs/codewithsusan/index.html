@@ -6,30 +6,8 @@
 
         <script src="https://unpkg.com/vue@3/dist/vue.global.js" defer></script>
         <script src="app.js" defer></script>
+        <link rel="stylesheet" href="style.css">
 
-        <style>
-            [v-cloak] {
-                display: none;
-            }
-
-            label {
-                display: block;
-            }
-
-            input,
-            button {
-                display: block;
-                margin: 10px 0px;
-            }
-
-            .correct {
-                color: green;
-            }
-
-            .incorrect {
-                color: red;
-            }
-        </style>
     </head>
 
     <body>
@@ -44,10 +22,11 @@
             <p v-if="answer">You answered: {{ answer }}</p>
             <button @click="checkAnswer()">Check answer</button>
 
-            <div v-if="showFeedback">
+            <template v-if="showFeedback">
                 <p v-if="correct" class="correct">You got it!</p>
                 <p v-else class="incorrect">Sorry, please try again</p>
-            </div>
+                <button @click="reset()">Reset</button>
+            </template>
         </div>
     </body>
 </html>

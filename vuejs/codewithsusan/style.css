@@ -1,0 +1,21 @@
+[v-cloak] {
+    display: none;
+}
+
+label {
+    display: block;
+}
+
+input,
+button {
+    display: block;
+    margin: 10px 0px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
