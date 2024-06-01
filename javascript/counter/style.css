@@ -4,14 +4,14 @@ main {
     font-family: "Inconsolata";
 }
 
-main-container {
-    border: 2px solid black;
+flex-container {
+    display: flex;
 }
 
-button-container {
-    border: 2px solid black;
+justify-center {
+    justify-content: center;
 }
 
-h1 {
-    border: 2px solid black;
+items-center {
+    align-items: center;
 }
