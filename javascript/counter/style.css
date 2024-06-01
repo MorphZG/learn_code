@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+
+main {
+    font-family: "Inconsolata";
+}
+
+main-container {
+    border: 2px solid black;
+}
+
+button-container {
+    border: 2px solid black;
+}
+
+h1 {
+    border: 2px solid black;
+}
