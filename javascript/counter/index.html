@@ -5,19 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Counter</title>
         <link rel="stylesheet" href="style.css" />
+        <script defer type="text/javascript" src="script.js"></script>
     </head>
     <body>
         <main>
-            <div class="flex-container">
+            <div class="flex-container column items-center justify-center">
                 <h1>Counter</h1>
                 <span id="value">0</span>
             </div>
 
-            <div class="flex-container">
-                <button>reset</button>
-                <button>increase</button>
-                <button>decrease</button>
+            <div class="flex-container items-center justify-center">
+                <button class="btn decrease">decrease</button>
+                <button class="btn reset">reset</button>
+                <button class="btn increase">increase</button>
             </div>
         </main>
+
     </body>
 </html>
