@@ -4,7 +4,7 @@ This directory will hold simple javascript projects. Feel free to recreate them 
 
 ## Projects
 
-- [x] [Counter](./counter/index.html)
-- [ ] [comming soon]()
+- [x] [Counter](./counter/)
+- [ ] [Random review](./random%20review/)
 
 ... add more later

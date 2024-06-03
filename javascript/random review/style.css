@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+
+:root {
+  --primary-blue: hsl(193deg, 57%, 25%);
+  --background-dark: hsl(193deg, 50%, 7%);
+  --background-light: hsl(190, 50%, 90%);
+}
+
+body {
+  background-color: var(--background-dark);
+}
+
+hr.separator {
+  border: 10px solid;
+  border-color:  var(--primary-blue);
+}
+
+.container-review {
+  background-color: var(--background-light);
+  height: 300px;
+  width: 450px;
+  border-radius: 20px;
+}
+
+.flex-col-parent {
+}
