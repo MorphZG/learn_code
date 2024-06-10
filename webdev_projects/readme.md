@@ -5,6 +5,8 @@ This directory will hold simple javascript projects. Feel free to recreate them 
 ## Projects
 
 - [x] [Counter](./counter/)
+- [ ] [Profile card](./profile_card/)
 - [ ] [Random review](./random%20review/)
+
 
 ... add more later
