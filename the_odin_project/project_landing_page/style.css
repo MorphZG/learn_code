@@ -1,4 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+    --bg-dark: hsl(200deg, 20%, 10%);
+    --almost-white: hsl(150, 40%, 90%);
+    --primary-blue: hsl(215, 70%, 70%);
+    --max-w: 1000px;
+}
+
+/* CSS reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 * {
-    background-color: hsl(200deg, 20%, 10%);
-    color: hsl(200deg, 30%, 90%);
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Roboto";
+}
+
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+h1,
+h2 {
+    font-family: "Roboto serif";
+}
+
+img,
+picture {
+    display: block;
+}
+
+/* header */
+header {
+    background-color: var(--bg-dark);
+    color: var(--almost-white);
+    padding-top: 5px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    line-height: 1.5;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    max-width: var(--max-w);
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-section {
+    max-width: var(--max-w);
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.container button {
+    color: var(--almost-white);
+    background-color: var(--primary-blue);
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    margin: 30px 0;
+    position: relative;
+}
+.container button:hover {
+    transform: scale(0.9);
+}
+
+img#hero-image {
+    object-fit: cover;
+    height: 300px;
+    width: 600px;
+    border-radius: 30px;
 }
