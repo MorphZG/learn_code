@@ -2,7 +2,7 @@
 
 :root {
     --bg-dark: hsl(200deg, 20%, 10%);
-    --bg-light: hsl(150, 40%, 80%);
+    --bg-light: hsl(150, 20%, 80%);
     --text-dark: hsl(200deg, 40%, 20%);
     --text-light: hsl(150, 40%, 90%);
     --accent-blue: hsl(215, 70%, 50%);
@@ -43,13 +43,17 @@ picture {
     display: block;
 }
 
+/* utility */
+.dark-heading {
+    font-family: "Roboto";
+    color: hsl(200deg, 40%, 20%);
+}
+
 /* header */
 header {
     background-color: var(--bg-dark);
     color: var(--text-light);
-    padding-top: 5px;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding: 1rem 10rem 5rem 10rem;
     line-height: 1.5;
 }
 
@@ -71,7 +75,7 @@ ul {
 
 nav {
     max-width: var(--max-w);
-    margin: 30px auto;
+    margin: 10px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,7 +107,8 @@ nav {
     object-fit: cover;
     height: 300px;
     width: 600px;
-    border-radius: 30px;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #first-section {
@@ -113,11 +118,6 @@ nav {
     display: flex;
     justify-content: center;
     padding: 50px 0 100px 0;
-}
-
-#first-section h1 {
-    font-family: "Roboto";
-    color: hsl(200deg, 40%, 20%);
 }
 
 #first-section > .container {
@@ -132,15 +132,19 @@ nav {
     gap: 40px;
 }
 .preview-box {
-    background-color: var(--text-light);
-    border: 2px solid var(--accent-blue);
-    border-radius: 25%;
-    width: 150px;
-    height: 150px;
+    text-align: center;
+    border-radius: 1rem;
+    width: 200px;
+    height: 300px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
 }
 
-.preview-box > p {
-    text-align: center;
-    padding: 10px;
+#first-section img {
+    object-fit: cover;
+    height: 50%;
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+
 }
