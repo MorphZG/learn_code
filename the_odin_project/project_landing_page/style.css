@@ -141,10 +141,18 @@ nav {
 }
 
 #first-section img {
+    cursor: pointer;
     object-fit: cover;
     height: 50%;
     width: 100%;
     border-radius: 1rem;
     margin-bottom: 10px;
+    filter: saturate(10%);
+    transition: transform 0.5s, filter 0.5s;
+    
+}
 
+#first-section .preview-box:hover img {
+    transform: scale(1.05);
+    filter: saturate(100%);
 }
