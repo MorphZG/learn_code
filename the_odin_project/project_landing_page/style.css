@@ -21,8 +21,14 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
     font-family: "Roboto";
+    background-color: var(--bg-dark);
+}
+main {
+    flex: 1;
 }
 
 input,
@@ -44,9 +50,12 @@ picture {
 }
 
 /* utility */
-.dark-heading {
-    font-family: "Roboto";
+.font-dark {
     color: hsl(200deg, 40%, 20%);
+}
+
+.font-2rem {
+    font-size: 2rem;
 }
 
 /* header */
@@ -98,7 +107,7 @@ nav {
     cursor: pointer;
 }
 
-.container button:hover {
+.container button:active {
     transform: scale(0.9);
     background-color: var(--accent-blue);
 }
@@ -108,8 +117,17 @@ nav {
     height: 300px;
     width: 600px;
     border-radius: 1rem;
+    filter: saturate(40%);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: filter 0.5s, transform 0.5s;
 }
+
+#hero-image:hover {
+    filter: saturate(100%);
+    transform: scale(1.05);
+}
+
+/* First section */
 
 #first-section {
     background-color: var(--bg-light);
@@ -118,6 +136,7 @@ nav {
     display: flex;
     justify-content: center;
     padding: 50px 0 100px 0;
+    flex: 1;
 }
 
 #first-section > .container {
@@ -155,4 +174,12 @@ nav {
 #first-section .preview-box:hover img {
     transform: scale(1.05);
     filter: saturate(100%);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: var(--text-light);
+    background-color: var(--bg-dark);
+    padding: 20px;
 }
