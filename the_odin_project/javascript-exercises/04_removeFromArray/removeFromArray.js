@@ -1,6 +1,5 @@
-const removeFromArray = function (array, element) {};
-
-console.log(removeFromArray([1, 2, 3, 4], 3));
+const removeFromArray = function() {
+};
 
 // Do not edit below this line
-export default removeFromArray;
+module.exports = removeFromArray;
