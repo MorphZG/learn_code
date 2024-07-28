@@ -10,7 +10,7 @@ const repeatString = function (string, num) {
     return result;
 };
 
-console.log(repeatString("hey", -1));
+console.log(repeatString("hey", 3));
 
 // Do not edit below this line
 module.exports = repeatString;
