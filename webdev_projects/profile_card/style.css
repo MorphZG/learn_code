@@ -1,5 +1,16 @@
 main {
     background-color: hsl(0deg, 30%, 90%);
-    height: 700px;
-    width: 500px;
+    height: 755px;
+    width: 510px;
+    border-radius: 50px
+}
+
+#upper_container {
+    border-radius: 50px 50px 0 0;
+    height: 300px;
+    width: 510px;
+    background-color: hsl(150deg, 50%, 40%)
+}
+
+.waves {
 }
