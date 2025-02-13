@@ -1,13 +1,13 @@
 /* results for whoever goes first */
 /* positive 1 is a win, negative 1 is a loss */
 const results = {
-    rock: { rock: 0, papper: -1, scissors: 1 },
-    papper: { rock: 1, papper: 0, scissors: -1 },
-    scissors: { rock: -1, papper: 1, scissors: 0 },
+    rock: { rock: 0, paper: -1, scissors: 1 },
+    paper: { rock: 1, paper: 0, scissors: -1 },
+    scissors: { rock: -1, paper: 1, scissors: 0 },
 };
 
 function getComputerChoice() {
-    let choice = ["rock", "papper", "scissors"];
+    let choice = ["rock", "paper", "scissors"];
     let index = Math.floor(Math.random() * 3);
     return choice[index];
 }
