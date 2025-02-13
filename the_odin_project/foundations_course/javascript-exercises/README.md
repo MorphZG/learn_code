@@ -1,3 +1,4 @@
+<!-- Continue at 10_fibonacci -->
 # JavaScript Exercises
 
 These JavaScript exercises are intended to complement the JavaScript content on [The Odin Project](https://www.theodinproject.com/) (TOP). They should only be done when instructed during the course of the curriculum.
