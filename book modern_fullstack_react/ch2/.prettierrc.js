@@ -8,6 +8,7 @@
 const config = {
   trailingComma: "all",
   tabWidth: 2,
+  useTabs: false,
   semi: true,
   singleQuote: false,
 };
