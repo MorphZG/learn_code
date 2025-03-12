@@ -1,6 +1,6 @@
 # temoporary files and directories
 IGNORED/
-note.md
+**/notes*
 
 # editor and workspace files
 *.sublime-workspace
