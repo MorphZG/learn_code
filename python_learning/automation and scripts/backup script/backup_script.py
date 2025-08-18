@@ -1,7 +1,12 @@
 #! /usr/bin/python3
+"""
+backup script
+include library to parse toml configuration file
+"""
 
 import os
 import shutil
+import tomllib
 
 dirs = input("Enter the directories you want to backup separated by space: ").split()
 output_dir = os.path.expanduser("~/backups/")
