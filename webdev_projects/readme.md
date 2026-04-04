@@ -7,9 +7,9 @@ This directory will hold simple javascript projects. Feel free to recreate them 
 ## Projects
 
 - [x] [Counter](./counter/)
-- [ ] [Profile card](./profile_card/) - *in progress*
+- [ ] [Profile card](./profile_card/) - _in progress_
+- [ ] [Password generator](./password_generator/) _in progress_
 - [ ] [Random review](./random_review/)
 - [ ] [Markdown to html converter](./markdown_html_converter/)
-
 
 ... add more later
