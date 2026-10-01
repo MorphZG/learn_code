@@ -1,0 +1,30 @@
+:root {
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(190deg, 10%, 15%);
+}
+.main-container {
+    padding: 1rem;
+    border: solid 2px hsl(150deg, 5%, 85%);
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: hsl(150deg, 20%, 80%);
+}
+
+button {
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    color: bisque;
+    border: solid 2px hsl(150deg, 5%, 5%);
+    background-color: hsl(150deg, 10%, 10%);
+}
+
+button:hover {
+    background-color: hsl(150deg, 20%, 20%);
+}
