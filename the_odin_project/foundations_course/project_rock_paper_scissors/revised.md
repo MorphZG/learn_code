@@ -1,5 +1,7 @@
 # Assignment
 
+[theodinproject.com](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors)
+
 ## Warm up
 
 1. Let’s practice a little bit of branching first. This [interactive Git branching visualizer](https://learngitbranching.js.org/) by Peter Cottle is brilliant. Complete only levels 1-3 of the “Introduction Sequence”.

@@ -28,3 +28,7 @@ button {
 button:hover {
     background-color: hsl(150deg, 20%, 20%);
 }
+
+.prompt-container {
+
+}
