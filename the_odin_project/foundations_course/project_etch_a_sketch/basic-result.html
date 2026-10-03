@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>16x16 Grid</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                background-color: rgb(42, 46, 51);
+            }
+
+            #grid-container {
+                display: flex;
+                flex-wrap: wrap;
+                width: 512px;
+                height: 512px;
+                background-color: #ffffff;
+                border: 2px solid #333333;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            }
+
+            .grid-square {
+                width: calc(100% / 16);
+                height: calc(100% / 16);
+                border: 1px solid #e0e0e0;
+                background-color: #ffffff;
+                transition: background-color 0.2s ease;
+            }
+
+            .grid-square:hover {
+                background-color: #e2e8f0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="grid-container"></div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const container = document.getElementById("grid-container");
+                const gridSize = 16;
+                const totalSquares = gridSize * gridSize;
+
+                for (let i = 0; i < totalSquares; i++) {
+                    const square = document.createElement("div");
+                    square.classList.add("grid-square");
+                    container.appendChild(square);
+                }
+            });
+        </script>
+    </body>
+</html>
