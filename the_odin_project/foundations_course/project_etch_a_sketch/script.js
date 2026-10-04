@@ -3,9 +3,13 @@
 
 const CONTAINER = document.querySelector(".grid-container");
 
+renderGrid(16);
 function renderGrid(squaresPerLine) {
-    let totalSize = squaresPerLine * squaresPerLine;
+    // clear previous grid elements
+    CONTAINER.textContent = "";
+
     // create totalSize number of squares
+    let totalSize = squaresPerLine * squaresPerLine;
     for (let i = 0; i < totalSize; i++) {
         let square = document.createElement("div");
         // add CSS to each sqare
@@ -17,27 +21,23 @@ function renderGrid(squaresPerLine) {
     }
 }
 
-let grid_size = prompt("Enter a number of sqares per line");
-while ((grid_size > 100) | (grid_size < 10)) {
-    grid_size = prompt("Number must be lower than 100 and higher than 10");
+function randomNum() {
+    return Math.floor(Math.random() * (255 + 1));
 }
-renderGrid(grid_size);
 
-console.log(`grid size: ${grid_size}`);
-console.log(`grid-container child elements: ${CONTAINER.childElementCount}`);
-
-// etch and sketch mechanic
-// leave a colored trail with mouse pointer
-
-/**
- * Changes the background color of grid items on mouseover.
- * @param {string} color - The CSS color string
- * "rgb(10 10 10)" or "#ff0000"
- */
-function changeColor(color) {
+(function changeColor() {
     CONTAINER.addEventListener("mouseover", (event) => {
+        let color = `rgb(${randomNum()} ${randomNum()} ${randomNum()})`;
         let item = event.target;
         item.style.backgroundColor = color;
     });
-}
-changeColor("rgb(10 10 10)")
+})();
+
+const BUTTON = document.querySelector("button");
+BUTTON.addEventListener("click", (e) => {
+    let grid_size = prompt("Enter a number of sqares per line");
+    while (grid_size > 100 || grid_size < 10) {
+        grid_size = prompt("Number must be lower than 100 and higher than 10");
+    }
+    renderGrid(grid_size);
+});
