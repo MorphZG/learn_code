@@ -6,5 +6,16 @@ Course is split into several paths. Foundations, Fullstack Javascript and Fullst
 
 This repository contains practical exercises copied from [github.com/TheOdinProject](https://github.com/orgs/TheOdinProject/repositories). I have organized directory structure to better reflect curriculum paths. If you browse through materials in original repositories listed below you will notice a bit different structure:
 
-  - [theodingproject/CSS-exercises](https://github.com/TheOdinProject/css-exercises)
-  - [theodinproject/javascript-exercises](https://github.com/TheOdinProject/javascript-exercises)
+- [theodingproject/CSS-exercises](https://github.com/TheOdinProject/css-exercises)
+- [theodinproject/javascript-exercises](https://github.com/TheOdinProject/javascript-exercises)
+
+## Navigate through content
+
+- [Foundations: HTML, CSS, JS](./foundations_course/)
+- [Intermediate HTML, CSS](./intermediate_html_css/)
+- [Javascript](./javascript/)
+- [Advanced HTML, CSS](./advanced_html_css/)
+- [React](./react/)
+- [Databases](./databases/)
+- [NodeJS](./nodejs/)
+- [Getting Hired](./getting_hired/)
