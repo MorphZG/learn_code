@@ -21,13 +21,17 @@ function renderGrid(squaresPerLine) {
     }
 }
 
-changeColor("red");
-function changeColor(color) {
+function randomNum() {
+    return Math.floor(Math.random() * (255 + 1));
+}
+
+(function changeColor() {
     CONTAINER.addEventListener("mouseover", (event) => {
+        let color = `rgb(${randomNum()} ${randomNum()} ${randomNum()})`;
         let item = event.target;
         item.style.backgroundColor = color;
     });
-}
+})();
 
 const BUTTON = document.querySelector("button");
 BUTTON.addEventListener("click", (e) => {
