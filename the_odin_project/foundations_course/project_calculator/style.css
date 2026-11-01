@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-color: #333;
+}
+
+.main-container {
+    background-color: hsl(213, 23%, 17%);
+    border: solid white 2px;
+    border-radius: 10px;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 10px
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 2rem;
+
+    .history {
+        text-align: right;
+        flex: 1 1 30%;
+        font-size: 1rem;
+    }
+
+    .result {
+        text-align: right;
+        padding: 20px;
+        flex: 1 1 70%;
+        font-size: 2rem;
+    }
+}
+
+.keypad {
+    display: inherit;
+    flex-wrap: wrap;
+}
+
+button {
+    font-size: 2rem;
+    height: 100px;
+    flex: 1 1 25%;
+}
